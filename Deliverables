@@ -1,1 +1,3 @@
 1. Our distance sensors work by emitting an ultrasonic pulse and measuring the amount of time it takes for the echo to return
+2. It is vital to include GPIO.cleanup() because it keeps our Pi safe and prevents short circuits and accidental damage, along with avoiding errors in your code
+3.
