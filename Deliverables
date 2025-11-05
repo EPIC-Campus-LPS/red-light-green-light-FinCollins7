@@ -1,4 +1,4 @@
 1. Our distance sensors work by emitting an ultrasonic pulse and measuring the amount of time it takes for the echo to return
 2. It is vital to include GPIO.cleanup() because it keeps our Pi safe and prevents short circuits and accidental damage, along with avoiding errors in your code
-3.
+3. We calculated the distance bewteen the previous distance the second before and did the calulations to see if the speed was over 1 cm/second.
 4. You can use the formula Speed = Distance/Time by taking two consecutive readings of distance and their corresponding times and find the average rate of change in between those speeds.
